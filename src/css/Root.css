@@ -1,0 +1,14 @@
+.mainOutlet {
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+  margin: 2rem;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.mainOutlet::-webkit-scrollbar {
+  scroll-behavior: smooth;
+}
